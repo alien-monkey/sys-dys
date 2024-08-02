@@ -1,0 +1,11 @@
+name: url-shortner-py
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+description: Implemention of URL Shortner in AWS Serverless using Python
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
